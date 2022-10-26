@@ -415,7 +415,8 @@ digraph finite_state_machine {
 Resultados
 :::
 
-## Modelo Geral {.center . smaller style='text-align: center;'}
+## Modelo Geral {.center .smaller style='text-align: center;'}
+<br>
 
 ::: {.incremental}
 * As necessidades epistêmicas, existenciais e relacionais supridas pela
@@ -432,6 +433,7 @@ Discussão
 :::
 
 ## Modelo Multigrupo {.center .smaller style='text-align: center;'}
+<br>
 
 :::: {.columns .v-center-container}
 ::: {.column}
@@ -472,6 +474,18 @@ Discussão
 :::
 
 ## Obrigado! {.center style='text-align: center;'}
+<br>
 
 [ccmn@proton.me](ccmn@proton.me)
 
+<br>
+
+:::: {.columns .v-center-container}
+::: {.column}
+[![Acesso à apresentação](Figures/presentation-qr.png)](https://clenocouto.github.io/Presentation_52RASBP/)
+:::
+
+::: {.column}
+[![Acesso à dissertação](Figures/dissertation-qr.png)](https://repositorio.unb.br/bitstream/10482/44761/1/2022_ClenoCoutodeMendonçaNeto.pdf)
+:::
+::::
