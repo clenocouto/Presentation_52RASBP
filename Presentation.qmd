@@ -99,6 +99,7 @@ Conceituação
 :::
 
 ## Fatores para Inação {.center style='text-align: center;'}
+<br>
 
 :::: {.columns .v-center-container}
 ::: {.column width="50%" .fragment .fade-up style='text-align: left;'}
@@ -169,7 +170,7 @@ Modelo e Hipóteses
 
 ## Participantes {.center style='text-align: center;'}
 
-:::: {.columns .v-center-container}
+:::: {.columns}
 
 ::: {.column .fragment .fade-up style='text-align: right; width=50%;'}
 962 brasileiros, maiores de 18 anos, de panorama político e 
@@ -223,6 +224,8 @@ Motivações Opostas e Contrárias ao Sistema e Sem Motivações Políticas.
 ::: footer
 Método
 :::
+
+# Resultados {.center style='text-align: center;'}
 
 ## Modelo Geral {.center style='text-align: center;'}
 <br>
@@ -415,9 +418,17 @@ digraph finite_state_machine {
 Resultados
 :::
 
+# Discussão {.center style='text-align: center;'}
+
 ## Modelo Geral {.center .smaller style='text-align: center;'}
 <br>
 
+:::: {.columns .v-center-container}
+
+::: {.column width="25%"}
+:::
+
+::: {.column width="50%"}
 ::: {.incremental}
 * As necessidades epistêmicas, existenciais e relacionais supridas pela
 justificação do sistema levam a redução da ação coletiva mesmo quando na 
@@ -427,6 +438,11 @@ presença de injustiças percebidas;
 aprendido levam a uma redução da ação coletiva, especialmente quando 
 há percepção contínua de injustiça;
 :::
+:::
+
+::: {.column width="25%"}
+:::
+::::
 
 ::: footer
 Discussão
@@ -440,6 +456,8 @@ Discussão
 **Assimetrias Grupais**
 
 Há variações no sentido e na magnitude das relações entre variáveis
+
+<br>
 
 ::: {.fragment .fade-up}
 **Raiva**
@@ -459,6 +477,8 @@ A inação e a desesperança são mais evidentes dentre quem não possui
 motivações políticas consistentes.
 :::
 
+<br>
+
 ::: {.fragment .fade-up}
 **Generalização**
 
@@ -474,7 +494,6 @@ Discussão
 :::
 
 ## Obrigado! {.center style='text-align: center;'}
-<br>
 
 [ccmn@proton.me](ccmn@proton.me)
 
