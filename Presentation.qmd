@@ -1,0 +1,477 @@
+---
+format: 
+  revealjs:
+    slide-number: true
+    logo: Figures/logos.png
+    css: style.css
+    transition: fade
+    chalkboard: true
+output-file: index.html
+---
+
+# {background-color="black" background-image="Figures/unb-bg.png" background-size="cover" background-opacity=".6"}
+:::{#title-slide .center}
+**Inação Política: Fatores Ideológicos, Afetivos e Cognitivos**
+
+Cleno Couto e Ronaldo Pilati
+
+Universidade de Brasília
+:::
+
+::: footer
+Realizado com apoio da Coordenação de 
+Aperfeiçoamento de Pessoal de Nível Superior
+:::
+
+## Contextualização {background-image="Figures/protests.jpg" background-size="cover" background-opacity=".3" .center style='text-align: center;'}
+
+<br>
+
+**Ano de Todos os Protestos**
+
+Protestantes tomam as ruas em todo o mundo em 2019.
+
+<p style='font-size: 14pt;'>(Agência France-Presse, 2019)</p>
+
+# {.center style='text-align: center;'}
+[![](Figures/democracydecline.png)](https://freedomhouse.org/report/freedom-world/2021/democracy-under-siege)
+
+<br>
+
+**Deterioração da Democracia**
+
+75% da população vivenciou algum declínio em 2021.
+
+<p style='font-size: 14pt;'>(Repucci & Slipowitz, 2021)</p>
+
+::: footer
+Contextualização
+:::
+
+## Objetivo {.center style='text-align: center;'}
+
+Testar um modelo que considere fatores mantenedores da inação política 
+sob condições de injustiça percebida.
+
+## Modelo Integrativo de Ação Coletiva {.center style='text-align: center;'}
+<p style='font-size: 14pt;'>(Jost et al., 2017)</p>
+<br>
+![](Figures/MIAC.png)
+
+::: {.fragment .fade-up style='text-align: left;'}
+<br>
+**Ação Coletiva**
+
+Ações de um indivíduo que representem seu grupo e objetivem melhorar
+suas condições gerais ou garantir seu status.
+
+<p style='font-size: 12pt;'>(Mikołajczak & Becker, 2019; van Zomeren et al., 2008)</p>
+:::
+
+::: footer
+Conceituação
+:::
+
+## Modelo Integrativo de Ação Coletiva {.center style='text-align: center;'}
+<p style='font-size: 14pt;'>(Jost et al., 2017)</p>
+<br>
+![](Figures/MIAC.png)
+
+:::: {.columns .v-center-container}
+
+::: {.column width="50%" .fragment .fade-up style='text-align: left;'}
+
+**Privação Relativa**
+
+Sensação de injustiça devido a comparação social.
+:::
+
+::: {.column width="50%" .fragment .fade-up style='text-align: left;'}
+
+**Raiva**
+
+Fortemente associada ao comportamento político, invocando reações.
+:::
+::::
+
+::: footer
+Conceituação
+:::
+
+## Fatores para Inação {.center style='text-align: center;'}
+
+:::: {.columns .v-center-container}
+::: {.column width="50%" .fragment .fade-up style='text-align: left;'}
+**Justificação do Sistema**
+
+Rejeição social, cognitiva e motivacional das alternativas ao sistema 
+por considera-lo como justo, legítimo e justificado.
+
+<p style='font-size: 12pt;'>(Jost et al., 2004, 2017)</p>
+:::
+
+::: {.column width="50%" .fragment .fade-up style='text-align: left;'}
+**Desamparo Aprendido**
+
+Expectativa individual de incontrolabilidade.
+
+Pode levar a deficits comportamentais, cognitivos e emocionais.
+
+<p style='font-size: 12pt;'>   (Abramson et al., 1978; Maier & Seligman, 1976)</p>
+:::
+::::
+
+::: footer
+Conceituação
+:::
+
+## Modelo Proposto {.center style='text-align: center;'}
+
+<br>
+![](Figures/MP.png)
+
+::: footer
+Modelo e Hipóteses
+:::
+
+## Hipóteses {.center style='text-align: center;'}
+
+:::: {.columns .v-center-container}
+::: {.column style='text-align: left; width: 10%;'}
+**H~1~**
+<br>
+<br>
+<br>
+
+**H~2~**
+<br>
+<br>
+<br>
+<br>
+
+:::
+
+::: {.column style='text-align: left; width: 90%;'}
+A justificação do sistema irá predizer uma redução nas intenções de ação
+coletiva, por meio de privação relativa e raiva.
+
+A privação relativa irá predizer uma redução nas intenções de ação coletiva,
+por meio do desamparo aprendido.
+
+<hr />
+Ainda, foram exploradas as relações destas variáveis em contexto multigrupo.
+:::
+::::
+
+::: footer
+Modelo e Hipóteses
+:::
+
+## Participantes {.center style='text-align: center;'}
+
+:::: {.columns .v-center-container}
+
+::: {.column .fragment .fade-up style='text-align: right; width=50%;'}
+962 brasileiros, maiores de 18 anos, de panorama político e 
+social diversificado.
+:::
+
+::: {.column .fragment .fade-up width=50%}
+![](Figures/fb-ads-01.png)
+:::
+
+::::
+
+::: footer
+Método
+:::
+
+# {.smaller}
+
+:::: {.columns}
+::: {.column .fragment .fade-up}
+
+**Instrumentos**
+
+* Escala de Intenção em Ação Coletiva, 6 itens, $\omega$ = .83;
+
+* Escala de Motivações para Ação Coletiva, bifatorial, 6 itens, $\omega$ = .81;
+
+* Escala Geral de Justificação do Sistema, 6 itens, $\omega$ = .90;
+
+* Escala de Percepção de Justiça Social, 8 itens, $\omega$ = .97;
+
+* Raiva (Afetos Negativos), 4 itens, $\omega$ = .87;
+
+* Escala de Desamparo Aprendido, 6 itens, $\omega$ = .78.
+:::
+
+::: {.column .fragment .fade-up}
+
+**Análise dos Dados**
+
+Modelagem por Equações Estruturais, por meio do pacote *lavaan* para R,
+utilizando Máxima Verossimilhança.
+
+Para o modelo multigrupo foram construídos os seguintes grupos: 
+Motivações Opostas ao Sistema, Motivações Favoráveis ao Sistema,
+Motivações Opostas e Contrárias ao Sistema e Sem Motivações Políticas.
+:::
+
+::::
+
+::: footer
+Método
+:::
+
+## Modelo Geral {.center style='text-align: center;'}
+<br>
+
+:::: {.columns .v-center-container}
+::: {.column style='width: 70%; text-align: left;'}
+
+```{dot}
+digraph finite_state_machine {
+  fontname="Helvetica,Arial,sans-serif";
+  node [fontname="Helvetica,Arial,sans-serif"];
+	edge [fontname="Helvetica,Arial,sans-serif"];
+  rankdir = "LR";
+  node [shape = "circle"];
+  sj    [label = "Justificação\ndo Sistema"];
+  rd    [label = "Privação\nRelativa"];
+  anger [label = "Raiva"];
+  lh    [label = "Desamparo\nAprendido"];
+  cai   [label = "Ação\nColetiva"];
+  sj -> rd    [label = "-0.8***\na"];
+  sj -> cai   [style="dashed", label = "-0.04\nf"];
+  rd -> anger [label = "0.39***\nb"];
+  rd -> lh    [label = "0.35***\nd"];
+  anger -> cai[label = "0.27***\nc"];
+  lh -> cai   [label = "-0.16***\ne"];
+}
+```
+
+:::
+
+::: {.column style='width: 30%; text-align: left;'}
+<p style='font-size: 22pt'>$\beta_{abc}$ = -0.09, 
+95% CI [-0.11, -0.06], *p* < 0.001 </p>
+
+<br>
+
+<p style='font-size: 22pt'>$\beta_{de}$ = -0.06, 
+95% CI [-0.08, -0.03], *p* < 0.001</p>
+:::
+::::
+
+<br>
+
+<p style='font-size: 20pt'>*Nota.* $\chi^2$ (399) = 1992.46, *CFI* = .93, *TLI* = .92, *RMSEA* = .06, 90% CI [.06, .07]</p>
+
+::: footer
+Resultados
+:::
+
+## Modelo Multigrupo {.center .smaller style='text-align: center;'}
+
+**Assimetrias Grupais**
+<br>
+
+:::: {.columns .v-center-container}
+::: {.column}
+```{dot}
+//| fig-cap: Motivações Opostas ao Sistema
+
+digraph finite_state_machine {
+  fontname="Helvetica,Arial,sans-serif";
+  node [fontname="Helvetica,Arial,sans-serif"];
+	edge [fontname="Helvetica,Arial,sans-serif"];
+  rankdir = "LR";
+  node [shape = "circle"];
+  sj    [label = "Justificação\ndo Sistema"];
+  anger [label = "Raiva"];
+  lh    [label = "Desamparo\nAprendido"];
+  cai   [label = "Ação\nColetiva"];
+  sj -> cai   [label = "-0.22***"];
+  anger -> cai[label = "0.16*"];
+  lh -> cai   [style="dashed", label = "0.02"];
+}
+```
+:::
+
+::: {.column}
+```{dot}
+//| fig-cap: Motivações Favoráveis ao Sistema
+
+digraph finite_state_machine {
+  fontname="Helvetica,Arial,sans-serif";
+  node [fontname="Helvetica,Arial,sans-serif"];
+	edge [fontname="Helvetica,Arial,sans-serif"];
+  rankdir = "LR";
+  node [shape = "circle"];
+  sj    [label = "Justificação\ndo Sistema"];
+  anger [label = "Raiva"];
+  lh    [label = "Desamparo\nAprendido"];
+  cai   [label = "Ação\nColetiva"];
+  sj -> cai   [style="dashed", label = "0.10"];
+  anger -> cai[style="dashed", label = "0.02"];
+  lh -> cai   [style="dashed", label = "-0.01"];
+}
+```
+
+:::
+::::
+
+::: footer
+Resultados
+:::
+
+## Modelo Multigrupo {.center .smaller style='text-align: center;'}
+
+**Desamparo Aprendido**
+<br>
+
+:::: {.columns .v-center-container}
+::: {.column}
+```{dot}
+//| fig-cap: Motivações Opostas ao Sistema
+
+digraph finite_state_machine {
+  fontname="Helvetica,Arial,sans-serif";
+  node [fontname="Helvetica,Arial,sans-serif"];
+	edge [fontname="Helvetica,Arial,sans-serif"];
+  rankdir = "TB";
+  node [shape = "circle"];
+  rd    [label = "Privação\nRelativa"];
+  lh    [label = "Desamparo\nAprendido"];
+  cai   [label = "Ação\nColetiva"];
+  rd -> lh   [style="dashed", label = "-0.10"];
+  lh -> cai   [style="dashed", label = "0.02"];
+}
+```
+:::
+
+::: {.column}
+```{dot}
+//| fig-cap: Motivações Favoráveis ao Sistema
+
+digraph finite_state_machine {
+  fontname="Helvetica,Arial,sans-serif";
+  node [fontname="Helvetica,Arial,sans-serif"];
+	edge [fontname="Helvetica,Arial,sans-serif"];
+  rankdir = "TB";
+  node [shape = "circle"];
+  rd    [label = "Privação\nRelativa"];
+  lh    [label = "Desamparo\nAprendido"];
+  cai   [label = "Ação\nColetiva"];
+  rd -> lh   [label = "0.26***"];
+  lh -> cai   [style="dashed", label = "-0.01"];
+}
+```
+
+:::
+
+::: {.column}
+```{dot}
+//| fig-cap: Motivações Opostas e Favoráveis ao Sistema
+
+digraph finite_state_machine {
+  fontname="Helvetica,Arial,sans-serif";
+  node [fontname="Helvetica,Arial,sans-serif"];
+	edge [fontname="Helvetica,Arial,sans-serif"];
+  rankdir = "TB";
+  node [shape = "circle"];
+  rd    [label = "Privação\nRelativa"];
+  lh    [label = "Desamparo\nAprendido"];
+  cai   [label = "Ação\nColetiva"];
+  rd -> lh   [style="dashed", label = "0.12"];
+  lh -> cai   [label = "-0.36***"];
+}
+```
+
+:::
+
+::: {.column}
+```{dot}
+//| fig-cap: Sem Motivações Políticas
+
+digraph finite_state_machine {
+  fontname="Helvetica,Arial,sans-serif";
+  node [fontname="Helvetica,Arial,sans-serif"];
+	edge [fontname="Helvetica,Arial,sans-serif"];
+  rankdir = "TB";
+  node [shape = "circle"];
+  rd    [label = "Privação\nRelativa"];
+  lh    [label = "Desamparo\nAprendido"];
+  cai   [label = "Ação\nColetiva"];
+  rd -> lh   [label = "0.33***"];
+  lh -> cai   [label = "-0.14*"];
+}
+```
+:::
+::::
+
+::: footer
+Resultados
+:::
+
+## Modelo Geral {.center . smaller style='text-align: center;'}
+
+::: {.incremental}
+* As necessidades epistêmicas, existenciais e relacionais supridas pela
+justificação do sistema levam a redução da ação coletiva mesmo quando na 
+presença de injustiças percebidas;
+
+* As consequências (e.g., passividade e desesperança) do desamparo 
+aprendido levam a uma redução da ação coletiva, especialmente quando 
+há percepção contínua de injustiça;
+:::
+
+::: footer
+Discussão
+:::
+
+## Modelo Multigrupo {.center .smaller style='text-align: center;'}
+
+:::: {.columns .v-center-container}
+::: {.column}
+**Assimetrias Grupais**
+
+Há variações no sentido e na magnitude das relações entre variáveis
+
+::: {.fragment .fade-up}
+**Raiva**
+
+Alguns autores apontam que pode não ser um preditor confiável por invocar 
+comportamentos imediatos.
+:::
+
+:::
+
+::: {.column}
+
+::: {.fragment .fade-up}
+**Desamparo Aprendido**
+
+A inação e a desesperança são mais evidentes dentre quem não possui
+motivações políticas consistentes.
+:::
+
+::: {.fragment .fade-up}
+**Generalização**
+
+O grupo sem motivações políticas apresenta maior similaridade com 
+o Modelo Geral.
+:::
+
+:::
+::::
+
+::: footer
+Discussão
+:::
+
+## Obrigado! {.center style='text-align: center;'}
+
+[ccmn@proton.me](ccmn@proton.me)
+
