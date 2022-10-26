@@ -6,6 +6,7 @@ format:
     css: style.css
     transition: fade
     chalkboard: true
+    theme: simple
 output-file: index.html
 ---
 
@@ -49,11 +50,22 @@ Contextualização
 :::
 
 ## Objetivo {.center style='text-align: center;'}
+<br>
 
+:::: {.columns .v-center-container}
+::: {.column width="12.5%"}
+:::
+
+::: {.column width="75%"}
 Testar um modelo que considere fatores mantenedores da inação política 
 sob condições de injustiça percebida.
+:::
 
-## Modelo Integrativo de Ação Coletiva {.center style='text-align: center;'}
+::: {.column width="12.5%"}
+:::
+::::
+
+## Modelo Integrativo de Ação Coletiva {.center .smaller style='text-align: center;'}
 <p style='font-size: 14pt;'>(Jost et al., 2017)</p>
 <br>
 ![](Figures/MIAC.png)
@@ -72,7 +84,7 @@ suas condições gerais ou garantir seu status.
 Conceituação
 :::
 
-## Modelo Integrativo de Ação Coletiva {.center style='text-align: center;'}
+## Modelo Integrativo de Ação Coletiva {.center .smaller style='text-align: center;'}
 <p style='font-size: 14pt;'>(Jost et al., 2017)</p>
 <br>
 ![](Figures/MIAC.png)
@@ -98,7 +110,7 @@ Fortemente associada ao comportamento político, invocando reações.
 Conceituação
 :::
 
-## Fatores para Inação {.center style='text-align: center;'}
+## Fatores para Inação {.center .smaller style='text-align: center;'}
 <br>
 
 :::: {.columns .v-center-container}
@@ -135,12 +147,12 @@ Conceituação
 Modelo e Hipóteses
 :::
 
-## Hipóteses {.center style='text-align: center;'}
+## Hipóteses {.center .smaller style='text-align: center;'}
+<br>
 
 :::: {.columns .v-center-container}
 ::: {.column style='text-align: left; width: 10%;'}
 **H~1~**
-<br>
 <br>
 <br>
 
@@ -149,7 +161,6 @@ Modelo e Hipóteses
 <br>
 <br>
 <br>
-
 :::
 
 ::: {.column style='text-align: left; width: 90%;'}
@@ -215,8 +226,14 @@ Modelagem por Equações Estruturais, por meio do pacote *lavaan* para R,
 utilizando Máxima Verossimilhança.
 
 Para o modelo multigrupo foram construídos os seguintes grupos: 
-Motivações Opostas ao Sistema, Motivações Favoráveis ao Sistema,
-Motivações Opostas e Contrárias ao Sistema e Sem Motivações Políticas.
+
+* Motivações Opostas ao Sistema; 
+
+* Motivações Favoráveis ao Sistema;
+
+* Motivações Opostas e Contrárias ao Sistema;
+
+* Sem Motivações Políticas.
 :::
 
 ::::
@@ -335,7 +352,7 @@ Resultados
 <br>
 
 :::: {.columns .v-center-container}
-::: {.column}
+::: {.column style='font-size: 20pt;'}
 ```{dot}
 //| fig-cap: Motivações Opostas ao Sistema
 
@@ -354,7 +371,7 @@ digraph finite_state_machine {
 ```
 :::
 
-::: {.column}
+::: {.column style='font-size: 20pt;'}
 ```{dot}
 //| fig-cap: Motivações Favoráveis ao Sistema
 
@@ -374,7 +391,7 @@ digraph finite_state_machine {
 
 :::
 
-::: {.column}
+::: {.column style='font-size: 20pt;'}
 ```{dot}
 //| fig-cap: Motivações Opostas e Favoráveis ao Sistema
 
@@ -394,7 +411,7 @@ digraph finite_state_machine {
 
 :::
 
-::: {.column}
+::: {.column style='font-size: 20pt;'}
 ```{dot}
 //| fig-cap: Sem Motivações Políticas
 
@@ -425,14 +442,16 @@ Resultados
 
 :::: {.columns .v-center-container}
 
-::: {.column width="25%"}
+::: {.column width="12.5%"}
 :::
 
-::: {.column width="50%"}
+::: {.column width="75%"}
 ::: {.incremental}
 * As necessidades epistêmicas, existenciais e relacionais supridas pela
 justificação do sistema levam a redução da ação coletiva mesmo quando na 
 presença de injustiças percebidas;
+
+<br>
 
 * As consequências (e.g., passividade e desesperança) do desamparo 
 aprendido levam a uma redução da ação coletiva, especialmente quando 
@@ -440,7 +459,7 @@ há percepção contínua de injustiça;
 :::
 :::
 
-::: {.column width="25%"}
+::: {.column width="12.5%"}
 :::
 ::::
 
