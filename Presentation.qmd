@@ -144,58 +144,22 @@ Ainda, foram exploradas as relações destas variáveis em contexto multigrupo.
 Modelo e Hipóteses
 :::
 
-## Hipóteses {.center .smaller style='text-align: center;'}
-<br>
-
-:::: {.columns .v-center-container}
-::: {.column style='text-align: left; width: 10%;'}
-**H~1~**
-<br>
-<br>
-
-**H~2~**
-<br>
-<br>
-<br>
-<br>
-:::
-
-::: {.column style='text-align: left; width: 90%;'}
-A justificação do sistema irá predizer uma redução nas intenções de ação
-coletiva, por meio de privação relativa e raiva.
-
-A privação relativa irá predizer uma redução nas intenções de ação coletiva,
-por meio do desamparo aprendido.
-
-<hr />
-Ainda, foram exploradas as relações destas variáveis em contexto multigrupo.
-:::
-::::
-
-::: footer
-Modelo e Hipóteses
-:::
-
 # Método {.center style='text-align: center;'}
 
-# {.center .smaller style='text-align: center;'}
-
-:::: {.columns}
-
-::: {.column .fragment .fade-up style='text-align: left;'}
-<h3>**Participantes**</h3>
+## Participantes {.center style='text-align: center;'}
+<br>
 
 962 brasileiros, maiores de 18 anos, de panorama político e 
 social diversificado.
 
-<br>
-
-![](Figures/fb-ads-01.png)
+::: footer
+Método
 :::
 
-::: {.column .fragment .fade-up style='text-align: left;'}
-<h3>**Instrumentos**</h3>
+## Instrumentos {.center .smaller style='text-align: center;'}
+<br>
 
+::: {style='text-align: left;'}
 * Escala de Intenção em Ação Coletiva, 6 itens, $\omega$ = .83;
 
 * Escala de Motivações para Ação Coletiva, bifatorial, 6 itens, $\omega$ = .81;
@@ -208,29 +172,16 @@ social diversificado.
 
 * Escala de Desamparo Aprendido, 6 itens, $\omega$ = .78.
 :::
-::::
 
 ::: footer
 Método
 :::
 
-# Análise dos Dados {.center .smaller style='text-align: center;'}
+## Análises {.center style='text-align: center;'}
 <br>
 
 Modelagem por Equações Estruturais, por meio do pacote *lavaan* para R,
 utilizando Máxima Verossimilhança.
-
-<br>
-
-Para o modelo multigrupo foram construídos os seguintes grupos: 
-
-* Motivações Opostas ao Sistema; 
-
-* Motivações Favoráveis ao Sistema;
-
-* Motivações Opostas e Favoráveis ao Sistema;
-
-* Sem Motivações Políticas.
 
 ::: footer
 Método
