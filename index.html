@@ -407,9 +407,18 @@
 <p>Conceituação</p>
 </div>
 </section>
-<section id="modelo-proposto" class="slide level2 center" style="text-align: center;">
+<section id="modelo-proposto" class="slide level2 center smaller" style="text-align: center;">
 <h2>Modelo Proposto</h2>
-<p><br> <img data-src="Figures/MP.png"></p>
+
+<img data-src="Figures/MP.png" class="r-stretch"><div class="columns">
+<div class="column" style="text-align: left; width: 33.3%;">
+<p><strong>H<sub>1</sub></strong> A justificação do sistema irá predizer uma redução nas intenções de ação coletiva, por meio de privação relativa e raiva.</p>
+</div><div class="column" style="text-align: left; width: 33.3%;">
+<p><strong>H<sub>2</sub></strong> A privação relativa irá predizer uma redução nas intenções de ação coletiva, por meio do desamparo aprendido.</p>
+</div><div class="column" style="text-align: left; width: 33.3%;">
+<p>Ainda, foram exploradas as relações destas variáveis em contexto multigrupo.</p>
+</div>
+</div>
 <div class="footer">
 <p>Modelo e Hipóteses</p>
 </div>
@@ -432,29 +441,25 @@
 <p>Modelo e Hipóteses</p>
 </div>
 </section></section>
-<section>
 <section id="método" class="title-slide slide level1 center" style="text-align: center;">
 <h1>Método</h1>
 
 </section>
-<section id="participantes" class="slide level2 center" style="text-align: center;">
-<h2>Participantes</h2>
-<div class="columns">
-<div class="column fragment fade-up" style="text-align: right; width=50%;">
-<p>962 brasileiros, maiores de 18 anos, de panorama político e social diversificado.</p>
-</div><div class="column fragment fade-up" style="width:50%;">
-<p><img data-src="Figures/fb-ads-01.png"></p>
-</div>
-</div>
-<div class="footer">
-<p>Método</p>
-</div>
-</section></section>
-<section id="section-2" class="title-slide slide level1 smaller center">
+
+<section id="section-2" class="title-slide slide level1 center smaller" style="text-align: center;">
 <h1></h1>
 <div class="columns">
-<div class="column fragment fade-up">
-<p><strong>Instrumentos</strong></p>
+<div class="column fragment fade-up" style="text-align: left;">
+<h3>
+<strong>Participantes</strong>
+</h3>
+<p>962 brasileiros, maiores de 18 anos, de panorama político e social diversificado.</p>
+<p><br></p>
+<p><img data-src="Figures/fb-ads-01.png"></p>
+</div><div class="column fragment fade-up" style="text-align: left;">
+<h3>
+<strong>Instrumentos</strong>
+</h3>
 <ul>
 <li><p>Escala de Intenção em Ação Coletiva, 6 itens, <span class="math inline">\(\omega\)</span> = .83;</p></li>
 <li><p>Escala de Motivações para Ação Coletiva, bifatorial, 6 itens, <span class="math inline">\(\omega\)</span> = .81;</p></li>
@@ -463,19 +468,25 @@
 <li><p>Raiva (Afetos Negativos), 4 itens, <span class="math inline">\(\omega\)</span> = .87;</p></li>
 <li><p>Escala de Desamparo Aprendido, 6 itens, <span class="math inline">\(\omega\)</span> = .78.</p></li>
 </ul>
-</div><div class="column fragment fade-up">
-<p><strong>Análise dos Dados</strong></p>
+</div>
+</div>
+<div class="footer">
+<p>Método</p>
+</div>
+</section>
+
+<section id="análise-dos-dados" class="title-slide slide level1 center smaller" style="text-align: center;">
+<h1>Análise dos Dados</h1>
+<p><br></p>
 <p>Modelagem por Equações Estruturais, por meio do pacote <em>lavaan</em> para R, utilizando Máxima Verossimilhança.</p>
 <p><br></p>
 <p>Para o modelo multigrupo foram construídos os seguintes grupos:</p>
 <ul>
 <li><p>Motivações Opostas ao Sistema;</p></li>
 <li><p>Motivações Favoráveis ao Sistema;</p></li>
-<li><p>Motivações Opostas e Contrárias ao Sistema;</p></li>
+<li><p>Motivações Opostas e Favoráveis ao Sistema;</p></li>
 <li><p>Sem Motivações Políticas.</p></li>
 </ul>
-</div>
-</div>
 <div class="footer">
 <p>Método</p>
 </div>
@@ -869,17 +880,12 @@ lh-&gt;cai
 <div class="column">
 <p><strong>Assimetrias Grupais</strong></p>
 <p>Há variações no sentido e na magnitude das relações entre variáveis</p>
-<p><br></p>
-<div class="fragment fade-up">
-<p><strong>Raiva</strong></p>
-<p>Alguns autores apontam que pode não ser um preditor confiável por invocar comportamentos imediatos.</p>
-</div>
 </div><div class="column">
 <div class="fragment fade-up">
 <p><strong>Desamparo Aprendido</strong></p>
 <p>A inação e a desesperança são mais evidentes dentre quem não possui motivações políticas consistentes.</p>
 </div>
-<p><br></p>
+</div><div class="column">
 <div class="fragment fade-up">
 <p><strong>Generalização</strong></p>
 <p>O grupo sem motivações políticas apresenta maior similaridade com o Modelo Geral.</p>

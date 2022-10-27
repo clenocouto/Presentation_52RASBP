@@ -120,10 +120,25 @@ Pode levar a deficits comportamentais, cognitivos e emocionais.
 Conceituação
 :::
 
-## Modelo Proposto {.center style='text-align: center;'}
+## Modelo Proposto {.center .smaller style='text-align: center;'}
 
-<br>
 ![](Figures/MP.png)
+
+:::: {.columns}
+::: {.column style='text-align: left; width: 33.3%;'}
+**H~1~**    A justificação do sistema irá predizer uma redução nas intenções 
+de ação coletiva, por meio de privação relativa e raiva.
+:::
+
+::: {.column style='text-align: left; width: 33.3%;'}
+**H~2~**    A privação relativa irá predizer uma redução nas intenções de 
+ação coletiva, por meio do desamparo aprendido.
+:::
+
+::: {.column style='text-align: left; width: 33.3%;'}
+Ainda, foram exploradas as relações destas variáveis em contexto multigrupo.
+:::
+::::
 
 ::: footer
 Modelo e Hipóteses
@@ -163,31 +178,23 @@ Modelo e Hipóteses
 
 # Método {.center style='text-align: center;'}
 
-## Participantes {.center style='text-align: center;'}
+# {.center .smaller style='text-align: center;'}
 
 :::: {.columns}
 
-::: {.column .fragment .fade-up style='text-align: right; width=50%;'}
+::: {.column .fragment .fade-up style='text-align: left;'}
+<h3>**Participantes**</h3>
+
 962 brasileiros, maiores de 18 anos, de panorama político e 
 social diversificado.
-:::
 
-::: {.column .fragment .fade-up width=50%}
+<br>
+
 ![](Figures/fb-ads-01.png)
 :::
 
-::::
-
-::: footer
-Método
-:::
-
-# {.smaller}
-
-:::: {.columns}
-::: {.column .fragment .fade-up}
-
-**Instrumentos**
+::: {.column .fragment .fade-up style='text-align: left;'}
+<h3>**Instrumentos**</h3>
 
 * Escala de Intenção em Ação Coletiva, 6 itens, $\omega$ = .83;
 
@@ -201,10 +208,14 @@ Método
 
 * Escala de Desamparo Aprendido, 6 itens, $\omega$ = .78.
 :::
+::::
 
-::: {.column .fragment .fade-up}
+::: footer
+Método
+:::
 
-**Análise dos Dados**
+# Análise dos Dados {.center .smaller style='text-align: center;'}
+<br>
 
 Modelagem por Equações Estruturais, por meio do pacote *lavaan* para R,
 utilizando Máxima Verossimilhança.
@@ -217,12 +228,9 @@ Para o modelo multigrupo foram construídos os seguintes grupos:
 
 * Motivações Favoráveis ao Sistema;
 
-* Motivações Opostas e Contrárias ao Sistema;
+* Motivações Opostas e Favoráveis ao Sistema;
 
 * Sem Motivações Políticas.
-:::
-
-::::
 
 ::: footer
 Método
@@ -460,36 +468,24 @@ Discussão
 **Assimetrias Grupais**
 
 Há variações no sentido e na magnitude das relações entre variáveis
-
-<br>
-
-::: {.fragment .fade-up}
-**Raiva**
-
-Alguns autores apontam que pode não ser um preditor confiável por invocar 
-comportamentos imediatos.
-:::
-
 :::
 
 ::: {.column}
-
 ::: {.fragment .fade-up}
 **Desamparo Aprendido**
 
 A inação e a desesperança são mais evidentes dentre quem não possui
 motivações políticas consistentes.
 :::
+:::
 
-<br>
-
+::: {.column}
 ::: {.fragment .fade-up}
 **Generalização**
 
 O grupo sem motivações políticas apresenta maior similaridade com 
 o Modelo Geral.
 :::
-
 :::
 ::::
 
