@@ -24,16 +24,6 @@ Realizado com apoio da Coordenação de
 Aperfeiçoamento de Pessoal de Nível Superior
 :::
 
-## Contextualização {background-image="Figures/protests.jpg" background-size="cover" background-opacity=".3" .center style='text-align: center;'}
-
-<br>
-
-**Ano de Todos os Protestos**
-
-Protestantes tomam as ruas em todo o mundo em 2019.
-
-<p style='font-size: 14pt;'>(Agência France-Presse, 2019)</p>
-
 # {.center style='text-align: center;'}
 [![](Figures/democracydecline.png)](https://freedomhouse.org/report/freedom-world/2021/democracy-under-siege)
 
@@ -42,8 +32,6 @@ Protestantes tomam as ruas em todo o mundo em 2019.
 **Deterioração da Democracia**
 
 75% da população vivenciou algum declínio em 2021.
-
-<p style='font-size: 14pt;'>(Repucci & Slipowitz, 2021)</p>
 
 ::: footer
 Contextualização
@@ -76,8 +64,6 @@ sob condições de injustiça percebida.
 
 Ações de um indivíduo que representem seu grupo e objetivem melhorar
 suas condições gerais ou garantir seu status.
-
-<p style='font-size: 12pt;'>(Mikołajczak & Becker, 2019; van Zomeren et al., 2008)</p>
 :::
 
 ::: footer
@@ -119,8 +105,6 @@ Conceituação
 
 Rejeição social, cognitiva e motivacional das alternativas ao sistema 
 por considera-lo como justo, legítimo e justificado.
-
-<p style='font-size: 12pt;'>(Jost et al., 2004, 2017)</p>
 :::
 
 ::: {.column width="50%" .fragment .fade-up style='text-align: left;'}
@@ -129,8 +113,6 @@ por considera-lo como justo, legítimo e justificado.
 Expectativa individual de incontrolabilidade.
 
 Pode levar a deficits comportamentais, cognitivos e emocionais.
-
-<p style='font-size: 12pt;'>   (Abramson et al., 1978; Maier & Seligman, 1976)</p>
 :::
 ::::
 
@@ -179,6 +161,8 @@ Ainda, foram exploradas as relações destas variáveis em contexto multigrupo.
 Modelo e Hipóteses
 :::
 
+# Método {.center style='text-align: center;'}
+
 ## Participantes {.center style='text-align: center;'}
 
 :::: {.columns}
@@ -225,6 +209,8 @@ Método
 Modelagem por Equações Estruturais, por meio do pacote *lavaan* para R,
 utilizando Máxima Verossimilhança.
 
+<br>
+
 Para o modelo multigrupo foram construídos os seguintes grupos: 
 
 * Motivações Opostas ao Sistema; 
@@ -249,7 +235,6 @@ Método
 
 :::: {.columns .v-center-container}
 ::: {.column style='width: 70%; text-align: left;'}
-
 ```{dot}
 digraph finite_state_machine {
   fontname="Helvetica,Arial,sans-serif";
@@ -270,7 +255,6 @@ digraph finite_state_machine {
   lh -> cai   [label = "-0.16***\ne"];
 }
 ```
-
 :::
 
 ::: {.column style='width: 30%; text-align: left;'}
@@ -293,8 +277,11 @@ Resultados
 :::
 
 ## Modelo Multigrupo {.center .smaller style='text-align: center;'}
+<br>
 
-**Assimetrias Grupais**
+<p style='font-size: 20pt'>$\chi^2$ (1596) = 3497.67, *CFI* = .88, *TLI* = .87, *RMSEA* = .07, 90% CI [.07, .07]</p>
+
+## Assimetrias Grupais {.center .smaller style='text-align: center;'}
 <br>
 
 :::: {.columns .v-center-container}
@@ -346,9 +333,7 @@ digraph finite_state_machine {
 Resultados
 :::
 
-## Modelo Multigrupo {.center .smaller style='text-align: center;'}
-
-**Desamparo Aprendido**
+## Desamparo Aprendido {.center .smaller style='text-align: center;'}
 <br>
 
 :::: {.columns .v-center-container}
